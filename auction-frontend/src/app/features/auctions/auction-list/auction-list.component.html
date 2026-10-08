@@ -85,7 +85,7 @@
         <span class="status-badge" [ngClass]="getStatusClass(auction.status)">
           {{ translateStatus(auction.status) }}
         </span>
-        <img [src]="auction.imagePath ? 'http://localhost:5026' + auction.imagePath : getDefaultImage(auction.category)" alt="{{ auction.title }}" class="auction-image" />
+        <img [src]="auction.imagePath ? auction.imagePath : getDefaultImage(auction.category)" alt="{{ auction.title }}" class="auction-image" />
       </div>
 
       <div class="card-body">

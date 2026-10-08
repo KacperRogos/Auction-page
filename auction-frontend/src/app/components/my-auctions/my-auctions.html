@@ -24,7 +24,7 @@
           {{ translateStatus(auction.status) }}
         </span>
         <img
-          [src]="auction.imagePath ? 'http://localhost:5026' + auction.imagePath : getDefaultImage(auction.category)"
+          [src]="auction.imagePath ? auction.imagePath : getDefaultImage(auction.category)"
           alt="{{ auction.title }}"
           class="auction-image"
         />

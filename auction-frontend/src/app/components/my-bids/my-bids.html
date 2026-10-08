@@ -20,7 +20,7 @@
     <div *ngFor="let bid of bids" class="auction-card">
       <div class="card-image-container">
         <img
-        [src]="bid.auctionImagePath ? 'bid.auctionImagePath : getDefaultImage(bid.auctionCategory)"          alt="{{ bid.auctionTitle }}"
+        [src]="bid.auctionImagePath ? bid.auctionImagePath : getDefaultImage(bid.auctionCategory)"          alt="{{ bid.auctionTitle }}"
         class="auction-image"
         />
       </div>
