@@ -16,8 +16,8 @@ info:
     - `Cancelled` — aukcja anulowana przez właściciela
   version: 1.0.0
   contact:
-    name: Projekt Aukcje
-    url: https://github.com/MlodyJano/Projekt_Aukcje
+    name: Kacper Rogoś
+    url: https://github.com/KacperRogos/Auction-page
 
 servers:
   - url: http://localhost:5000

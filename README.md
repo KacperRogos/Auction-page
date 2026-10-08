@@ -1,6 +1,8 @@
-# System Aukcyjny — Projekt_Aukcje
+# System Aukcyjny — Auction Page
 
 Pełnostackowa aplikacja aukcyjna zbudowana w **ASP.NET Core 10** (backend) i **Angular** (frontend). Umożliwia rejestrację użytkowników, wystawianie aukcji, licytowanie i zarządzanie własnym kontem.
+
+Autor: Kacper Rogoś
 
 ---
 
@@ -43,8 +45,8 @@ Pełnostackowa aplikacja aukcyjna zbudowana w **ASP.NET Core 10** (backend) i **
 
 ```bash
 # 1. Sklonuj repozytorium
-git clone https://github.com/MlodyJano/Projekt_Aukcje.git
-cd Projekt_Aukcje
+git clone https://github.com/KacperRogos/Auction-page.git
+cd Auction-page
 
 # 2. Uruchom cały stack (API + frontend)
 docker compose up --build
@@ -400,7 +402,7 @@ Testy pokrywają:
 ## Struktura projektu
 
 ```
-Projekt_Aukcje/
+Auction-page/
 ├── Backend/
 │   └── AuctionSystem.API/
 │       └── AuctionSystem.API/
